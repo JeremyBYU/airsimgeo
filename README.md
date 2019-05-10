@@ -3,6 +3,15 @@
 This module gives AirSim the ability to reason about arbitrary projection systems that your simulation environment may be in. AirSim works with NED by default, however this plugin allows
 you to work within any projected coordinate system that [pyproj](https://github.com/jswhit/pyproj) can handle. To learn more about projections and why the are useful, I encourage you to read [this](http://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/what-are-map-projections.htm#GUID-57EBA564-3106-4CD0-94AB-FA43C1320523).
 
+Example of a small block in Witen, Germany built in the Unreal Engine. The simulation environment is a georeferenced world built from OSM in the UTM32N projected coordinate system. Watch as I command the quadrotor to land on a building by a GPS position. It knows where this GPS position is in the Unreal Engine.
+
+![](assets/witten.gif)
+
+Here is the map for reference:
+
+![](assets/osm_start_stop.png)
+
+
 
 ## Install
 Until the project is on PyPI you must clone and install.
